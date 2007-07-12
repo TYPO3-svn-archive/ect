@@ -6,7 +6,7 @@
 The target of this extension to install a defined selection of libraries and basic extensions all at once. 
 For now this is done by the use of dependencies.
 
-=== What is in the set of extensions? ===
+=== What is in the selection of extensions? ===
 
 The extensions that will be installed are libraries and basic extensions that other extensions can
 be build upon. All this extensions are maintained by members of the Extension Coordination Team.
@@ -14,7 +14,7 @@ be build upon. All this extensions are maintained by members of the Extension Co
 === What is the target of this extension? ===
 
 The target of this extension and one target of the Extension Coordination Team at all, is to establish
-a selection of coordinated libraries as base for extension development. It want's to give some orientation 
+a selection of coordinated libraries as base for extension development. It wants to give some orientation 
 in the jungle of the many libraries within the TER.
 
 === Why should I use this libraries? ===
@@ -22,76 +22,63 @@ in the jungle of the many libraries within the TER.
 The included libraries have active maintainers or even a team of maintainers. So you will find support
 within the newsgroups. The libraries are coordinated so that they fit together as much as it is possible.
 
-=== Are the listet extensions stable? ===
+=== Are the listed extensions stable? ===
 
-Well that would be nice. But it's not the primarly target to include only stable extensions. We also 
+Well that would be nice. But it's not the primary target to include only stable extensions. We also 
 want to set the focus upon extensions that need the support of the community to become stable soon.
 
 === Why should I install this extension? ===
 
 You don't need to install this extension. If you install it,  it's for your own curiosity. Maybe 
-you want make it a habit to build your extensions upon this fundament. Then it helps you to 
+you want make it a habit to build your extensions upon this base. Then it helps you to 
 get started more quickly with the installation of the fundamental selection of extensions.
 
 === Why isn't my library in this set of extensions? ===
 
 Your extension must meet the requirements of ECT extensions (See below). You must be an active member 
-in the extension coordination newsgroup/mailinglist. Simply putting an extension into the TER is not enough, 
-even if your extension is perfectly coded. The regular communication with the other developers is a prerequest.
+in the extension coordination newsgroup/mailing list. Simply putting an extension into the TER is not enough, 
+even if your extension is perfectly coded. The regular communication with the other developers is a precondition.
 
-=== Is there a bug in the key kickstarter__mvc?
+=== Is there a bug in the key kickstarter__mvc? ===
 
-No, the double underscore is a special syntax to mark it as an addon for the kickstarter extension. 
+No, the double underscore is a special syntax to mark it as an add-on for the kickstarter extension. 
 (See below.)
 
 == Requirements for extensions ==
 
-# The maintainer of the extension needs to be an active member of the ECT. He participates in the 
-discussions in the NG typo3.teams.extension-coordiantion and answers to the daily questions. 
-Maybe there is an own mailinglist for the extension.
+# The maintainer of the extension is an active member of the ECT. He participates in the discussions in the NG typo3.teams.extension-coordiantion and answers to the daily questions.  Maybe he provides an own mailing list for the extension.
+# The extension is a base for other extensions. Either it is a library or it is an extension of fundamental functionality, that other extensions build upon. This is not the place for extensions, that are only build for end users.
+# The extension can also provide end user functionality for the TYPO3 BE that is interesting for many people but still didn't find it's way into the set of core extensions.
+# There shouldn't be concurrency within this set of extensions. For exmample there should only be one basic calendar extension.
+# The extension keys don't start with a personal prefix but have a general name. Underscores should be avoided.
+# The extension must follow the coding guidelines and quality standards of TYPO3.
 
-# The extension should be a base for other extensions. Either it is a library or it is an 
-extension of fundamental functionality that other extensions build upon. It is not the place 
-for extensions that are only build for end users.
-
-# The extension can also provide end user functionality for the TYPO3 BE that is interesting for
-many people but still didn't find it's way into the set of core extensions.
-
-# There shouldn't be concurrency within this set of extensions. I.e. there should only be one
-basic calendar extension.
-
-# The extension keys don't start with a personal prefix but have a general name. Underscores
-Should be avoided.
-
-# The extension must meet the coding guidlines and quality standards of TYPO3.
-
-
-== Addons: ECT syntax for extension keys (*) ==
+== Add-ons: ECT syntax for extension keys (*) ==
 
 ''(*) The syntax is based on a voting from spring 2007 in typo3.teams.extension-coordination.''
 
-The extension key kickstarter__mvc shows how keys for addons should look like.
+The extension key kickstarter__mvc shows how keys for add-ons should look like.
 
-Every few weeks somebody programms a new calendar extension from scratch because he needs 
+Every few weeks somebody programs a new calendar extension from scratch because he needs 
 a special feature, that is missing in all existing calendar extensions. Certainly his calendar 
-is missing other features again and the next calender is started. The amount of calendars in 
+is missing other features again and the next calender is started. The amount of calendar extensions in 
 TER is rather of harm than of use. 
 
 The recommended way is to have one base calendar (cal) and to add new features when needed. 
-Best you add the feature togther with the maintainer. But that often keeps theory. 
+Best you add the feature togther with the maintainer. But that often is theory. 
 If you need to do it in form of an own extension for any reason, 
-we recommend to do it in form of an addon. Addons have a special syntax for the keys. 
-The namepart of your addon is appended to the extension key of the basis by use of 
+we recommend to do it in form of an add-on. Add-ons should have a special syntax for the keys. 
+The namepart of your add-on is appended to the extension key of the basis by use of 
 double underscores. 
 
  Example: cal + extraviews => cal__extraviews 
 
-Addons can be done recursively: 
+Add-ons can be done recursively: 
 
  Example: cal__extraviews + part1=> cal__extraviews__part1
 
-We plan to modify TER in a way, that addons can be directly listed below the extension. 
-This way you get an overview quickly.
+We plan to modify TER in a way, that add-ons can be directly listed below the extension. 
+This way people get an overview quickly, what add-ons are available.
 
 
 
