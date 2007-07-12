@@ -3,7 +3,7 @@
 
 === What does this extension do? ===
 
-The target of this extension to install a defined set of libraries and basic extensions all at once. 
+The target of this extension to install a defined selection of libraries and basic extensions all at once. 
 For now this is done by the use of dependencies.
 
 === What is in the set of extensions? ===
@@ -14,7 +14,7 @@ be build upon. All this extensions are maintained by members of the Extension Co
 === What is the target of this extension? ===
 
 The target of this extension and one target of the Extension Coordination Team at all, is to establish
-a set of coordinated libraries as base for extension development. It want's to give some orientation 
+a selection of coordinated libraries as base for extension development. It want's to give some orientation 
 in the jungle of the many libraries within the TER.
 
 === Why should I use this libraries? ===
@@ -24,14 +24,14 @@ within the newsgroups. The libraries are coordinated so that they fit together a
 
 === Are the listet extensions stable? ===
 
-Well that but be nice. But it's not the primarly target to include only stable extensions. We also 
+Well that would be nice. But it's not the primarly target to include only stable extensions. We also 
 want to set the focus upon extensions that need the support of the community to become stable soon.
 
 === Why should I install this extension? ===
 
 You don't need to install this extension. If you install it,  it's for your own curiosity. Maybe 
-you want make it a habit to build your extensions upon this fundament. In this case it helps you to 
-get started more quickly with the installation of the funcamental extensions.
+you want make it a habit to build your extensions upon this fundament. Then it helps you to 
+get started more quickly with the installation of the fundamental selection of extensions.
 
 === Why isn't my library in this set of extensions? ===
 
@@ -39,6 +39,10 @@ Your extension must meet the requirements of ECT extensions (See below). You mus
 in the extension coordination newsgroup/mailinglist. Simply putting an extension into the TER is not enough, 
 even if your extension is perfectly coded. The regular communication with the other developers is a prerequest.
 
+=== Is there a bug in the key kickstarter__mvc?
+
+No, the double underscore is a special syntax to mark it as an addon for the kickstarter extension. 
+(See below.)
 
 == Requirements for extensions ==
 
@@ -88,20 +92,6 @@ Addons can be done recursively:
 
 We plan to modify TER in a way, that addons can be directly listed below the extension. 
 This way you get an overview quickly.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
